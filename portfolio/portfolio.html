@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="portfolioStyle.css">
+    <link rel="stylesheet" type="text/css" media="print" href="/print.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <a href="#main" class="skip">Till innehåll</a>
+        <h1>Portfolio</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/index/index.html">Hem</a></li>
+            <li><a href="/about/about.html">Om mig</a></li>
+            <li><a href="/cv/CV.html">CV</a></li>
+            <li class="active"><a>Portfolio</a></li>
+            <li><a href="/contact/contact.html">Kontakt</a></li>
+            <li><a href="/riktlinjer/riktlinjer.html">Webbriktlinjer</a></li>
+        </ul>
+    </nav>
+
+    <main id="main">
+        <section>
+            <h2>Portfolio</h2>
+            <div id="flex-container">
+                <div class="project">
+                    <h3>Mitt första program</h3>
+                        <img src="/images/codeimg.jpg" alt="bild på kod">
+                        <p>Första labben i utbildningen</p>
+                        <a href="#popup1" class="button">Mer info</a>
+                </div>
+                <div class="project">
+                    <h3>schackbräde</h3>
+                        <img src="/images/codeimg.jpg" alt="bild på kod">
+                        <p>Labb om att skriva ut ett schackbräde i konsolen</p>
+                        <a href="#popup2" class="button">Mer info</a>
+                </div>
+                <div class="project">
+                    <h3>Nummerspel</h3>
+                        <img src="/images/codeimg.jpg" alt="bild på kod">
+                        <p>Gissa numret spel</p>
+                        <a href="#popup3" class="button">Mer info</a>
+                </div>
+                <div class="project">
+                    <h3>Databasprojekt</h3>
+                        <img src="/images/codeimg.jpg" alt="bild på kod">
+                        <p>Labb där jag gjorde en databas och en simple konsolapp</p>
+                        <a href="#popup4" class="button">Mer info</a>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="popup" id="popup1">
+            <div class="popup-inner">
+                <h4>Mitt första program</h4>
+                <p>första labben i utbildningen där vi testade "IF", att skriva ut ett namn som skrevs in och en loop
+                    som skrev ut nummer mellan 0 upp till ett nummer i en variable</p>
+                <a href="https://github.com/saibot5/Labb1-MyFirstProgram" class="button">Github Länk</a>
+                <a href="#" class="button">stäng</a>
+            </div>
+        </div>
+        <div class="popup" id="popup2">
+            <div class="popup-inner">
+                <h4>schackbräde</h4>
+                <p>konsolapp där vi valde storlek på ett schackbräde och en ruta att ställa en shackpjäs som skrevs ut i
+                    konsolen </p>
+                <a href="https://github.com/saibot5/Labb2-ChessBoard" class="button">Github Länk</a>
+                <a href="#" class="button">stäng</a>
+            </div>
+        </div>
+        <div class="popup" id="popup3">
+            <div class="popup-inner">
+                <h4>Nummerspel</h4>
+                <p>Ett gissa numret spel i konsolen med olika svårighetsgrader</p>
+                <a href="https://github.com/saibot5/Labb3_NumbersGame" class="button">Github Länk</a>
+                <a href="#" class="button">stäng</a>
+            </div>
+        </div>
+        <div class="popup" id="popup4">
+            <div class="popup-inner">
+                <h4>Databasprojekt</h4>
+                <p>Labb där vi byggde en databas och en konsolapp där man kunde se och lägga till elever,kurser,betyg
+                    och anställda till en fiktiv skola</p>
+                <a href="https://github.com/saibot5/Databasprojekt" class="button">Github Länk</a>
+                <a href="#" class="button">stäng</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024</p>
+    </footer>
+</body>
+
+</html>

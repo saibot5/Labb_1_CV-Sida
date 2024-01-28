@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="contactStyle.css">
+    <link rel="stylesheet" type="text/css" media="print" href="/print.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="#main" class="skip">Till innehåll</a>
+        <h1>kontakt</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/index/index.html">Hem</a></li>
+            <li><a href="/about/about.html">Om mig</a></li>
+            <li><a href="/cv/CV.html">CV</a></li>
+            <li><a href="/portfolio/portfolio.html">Portfolio</a></li>
+            <li class="active"><a>Kontakt</a></li>
+            <li><a href="/riktlinjer/riktlinjer.html">Webbriktlinjer</a></li>
+        </ul>
+    </nav>
+
+    <main class="main">
+        <form action="/submit_form" method="post">
+            <h2>kontaktformulär</h2><br>
+            <label for="Namn">Namn:</label><br>
+            <input type="text" id="Namn" name="namn" placeholder="Ditt namn..." required><br>
+            <label for="Epost">Epost:</label><br>
+            <input type="email" id="Epost" name="Epost" placeholder="exemple@domän.com" required><br>
+            <label for="Meddelande">Meddelande:</label><br>
+            <textarea id="Meddelande" name="Meddelande" placeholder="skriv ditt medelande här..." required></textarea><br>
+            <input type="submit" aria-label="Skicka" value="Skicka"><br>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024</p>
+    </footer>
+</body>
+</html>
